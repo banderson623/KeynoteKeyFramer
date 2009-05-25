@@ -1,0 +1,16 @@
+# Keynote Key Framer
+
+The start of an amazingly cool project for cool kids only.
+
+Will observe a keynote file and wait for someone to advance a slide When this amazing event happens it will log to file the current time since the presentation was started.
+
+## Sample Syntax of exported file
+
+`00:12:01 1
+00:14:12 2`
+
+## Post processing
+
+I would like this to be a json object at some point, like:
+
+`{1: "00:12:01", 2: "00:14:12"}`
