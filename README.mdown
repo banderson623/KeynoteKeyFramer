@@ -1,16 +1,29 @@
 # Keynote Key Framer
 
-The start of an amazingly cool project for cool kids only.
+This trivially small Apple Script will observe a Keynote presentation and faithfully record when the slides were advanced (or moved backwards) and save this data as a JSON-formatted text file.
 
-Will observe a keynote file and wait for someone to advance a slide When this amazing event happens it will log to file the current time since the presentation was started.
+Its main use is to provide a file for use on a web site that would sync the audio and slides together. Hint hint...
 
 ## Sample Syntax of exported file
 
-`00:12:01 1
-00:14:12 2`
-
-## Post processing
-
-I would like this to be a json object at some point, like:
-
-`{1: "00:12:01", 2: "00:14:12"}`
+`timing = 
+[
+    {
+        slide:0,
+         time:"Friday,
+         August 28,
+         2009 7:44:22 AM"
+    },
+    {
+        slide:1,
+         time:12
+    },
+    {
+        slide:2,
+         time:121
+    },
+    {
+        slide:3,
+         time:553
+    },
+]`
