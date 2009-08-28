@@ -6,24 +6,23 @@ Its main use is to provide a file for use on a web site that would sync the audi
 
 ## Sample Syntax of exported file
 
-`timing = 
-[
-    {
-        slide:0,
-         time:"Friday,
-         August 28,
-         2009 7:44:22 AM"
-    },
-    {
-        slide:1,
-         time:12
-    },
-    {
-        slide:2,
-         time:121
-    },
-    {
-        slide:3,
-         time:553
-    },
-]`
+    timing =   [
+        {
+            slide:0,
+             time:"Friday,
+             August 28,
+             2009 7:44:22 AM"
+        },
+        {
+            slide:1,
+             time:12
+        },
+        {
+            slide:2,
+             time:121
+        },
+        {
+            slide:3,
+             time:553
+        },
+    ]
